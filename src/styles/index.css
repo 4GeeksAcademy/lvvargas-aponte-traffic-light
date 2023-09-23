@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,57 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color: lightblue;
+}
+
+.trafficContainer {
+    background-color: black;
+    margin: auto;
+    padding-top: 5px;
+    width: 118px;
+    height: 325px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.top {
+    background-color: black;
+    margin: auto;
+    height: 80px;
+    width: 20px;
+}
+
+
+.light {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+.red {
+    background-color: red;
+    margin-top: 0;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.selected {
+    box-shadow: yellow 0px 22px 70px 4px;
+}
